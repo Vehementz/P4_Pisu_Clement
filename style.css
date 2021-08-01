@@ -31,6 +31,23 @@ a:hover {
     list-style-type: none;
 }
 
+.title-footer {
+    font-size: 2rem;
+}
+
+.partenaire-title {
+    font-size: 1.8rem;
+}
+
+.agency-title {
+    margin: 3rem 0 3rem 0;
+}
+
+.agency-keywords {
+    color : black;
+    font-size: 1.3rem;
+}
+
 .bloc {
     width: 100%;
     clear: both;
@@ -58,6 +75,7 @@ a:hover {
 
 .bloc-sm {
     padding: 20px 50px;
+    background-color: rgb(242, 220, 212);
 }
 
 .bg-center,
@@ -706,7 +724,7 @@ p {
 
 .social {
     max-width: 400px;
-    margin: auto auto auto auto;
+    margin: 3rem auto 3rem auto;
 }
 
 h2 {
@@ -776,7 +794,7 @@ h4 {
 }
 
 .bgc-atomic-tangerine {
-    background-color: #f3c2ac;
+    background-color: #f3e1d9;
 }
 
 .tc-white {
