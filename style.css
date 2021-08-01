@@ -27,6 +27,10 @@ a:hover {
     background: #FFFFFF url("img/pageload-spinner.gif") no-repeat center center;
 }
 
+.footer-list {
+    list-style-type: none;
+}
+
 .bloc {
     width: 100%;
     clear: both;
@@ -133,7 +137,7 @@ a:hover {
 .d-bloc h5 a,
 .d-bloc h6 a,
 .d-bloc p a {
-    color: rgba(255, 255, 255, .6);
+    color: black;
 }
 
 .d-bloc .a-btn:hover,
@@ -150,7 +154,7 @@ a:hover {
 .d-bloc h5 a:hover,
 .d-bloc h6 a:hover,
 .d-bloc p a:hover {
-    color: rgba(255, 255, 255, 1);
+    color: black;
 }
 
 .d-bloc .navbar-toggle .icon-bar {
@@ -231,7 +235,7 @@ a:hover {
 .l-bloc h5 a,
 .l-bloc h6 a,
 .l-bloc p a {
-    color: rgba(0, 0, 0, .6);
+    color: black;
 }
 
 .d-bloc .panel .a-btn:hover,
@@ -249,11 +253,11 @@ a:hover {
 .l-bloc h5 a:hover,
 .l-bloc h6 a:hover,
 .l-bloc p a:hover {
-    color: rgba(0, 0, 0, 1);
+    color: black;
 }
 
 .l-bloc .navbar-toggle .icon-bar {
-    color: rgba(0, 0, 0, .6);
+    color: black;
 }
 
 .d-bloc .panel .btn-wire,
@@ -476,6 +480,7 @@ button {
 }
 
 .icon-md {
+    color: black;
     font-size: 30px!important;
 }
 
@@ -651,7 +656,7 @@ label,
 a {
     font-family: "helvetica";
     font-weight: 400;
-    color: #575757!important;
+    color: black!important;
 }
 
 .container {
@@ -771,7 +776,7 @@ h4 {
 }
 
 .bgc-atomic-tangerine {
-    background-color: #F3976C;
+    background-color: #f3c2ac;
 }
 
 .tc-white {
