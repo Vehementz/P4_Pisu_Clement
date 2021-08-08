@@ -48,6 +48,21 @@ a:hover {
     font-size: 1.3rem;
 }
 
+.text-skills {
+    font-size: 1.4rem;
+}
+
+.text-motivation {
+    font-size: 1.4rem;
+}
+.text-experience {
+    font-size: 1.4rem;
+}
+
+.contact-infos p{
+    font-size: 1rem;
+}
+
 .bloc {
     width: 100%;
     clear: both;
@@ -58,6 +73,10 @@ a:hover {
     -o-background-size: cover;
     background-size: cover;
     position: relative;
+}
+
+.footer-agency-text {
+    font-size: 1.2rem;
 }
 
 .bloc .container {
