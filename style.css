@@ -67,7 +67,25 @@ a:hover {
     color: white;
 }
 
+.skills-container-title {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
 
+
+.testymony {
+    font-size: 2rem;
+}
+
+.quote-container {
+    width: 60rem;
+    margin: 0 auto;
+}
+
+#bloc-8 {
+    padding: 1rem;
+}
 
 .bloc {
     width: 100%;
@@ -489,6 +507,7 @@ nav .caret {
 .mg-lg {
     margin-top: 10px;
     margin-bottom: 40px;
+    font-size: 1.2rem;
 }
 
 .btn {
@@ -821,8 +840,8 @@ h4 {
     background-color: #f3e1d9;
 }
 
-.tc-black {
-    color:#000000!important;
+.tc-tangerine {
+    color:#fffefe!important;
 }
 
 .btn-atomic-tangerine {
