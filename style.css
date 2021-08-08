@@ -63,6 +63,12 @@ a:hover {
     font-size: 1rem;
 }
 
+.team-text-banniere {
+    color: white;
+}
+
+
+
 .bloc {
     width: 100%;
     clear: both;
@@ -93,8 +99,7 @@ a:hover {
 }
 
 .bloc-sm {
-    padding: 20px 50px;
-    background-color: rgb(242, 220, 212);
+    background-color: rgb(255, 255, 255);
 }
 
 .bg-center,
@@ -141,7 +146,7 @@ a:hover {
 }
 
 .d-bloc {
-    color: rgba(255, 255, 255, .7);
+    color: rgba(255, 255, 255, 0.7);
 }
 
 .d-bloc button:hover {
@@ -795,7 +800,7 @@ h4 {
 }
 
 .black-background {
-    background-color: rgba(165, 147, 99, 0.7);
+    background-color: rgba(165, 147, 99, 0.2);
     padding: 40px 40px 40px 40px;
 }
 
@@ -816,8 +821,8 @@ h4 {
     background-color: #f3e1d9;
 }
 
-.tc-white {
-    color: #F3976C!important;
+.tc-black {
+    color:#000000!important;
 }
 
 .btn-atomic-tangerine {
