@@ -77,6 +77,9 @@ a:hover {
 .testymony {
     font-size: 2rem;
 }
+.sub-testymony {
+    font-size: 1.5rem;
+}
 
 .quote-container {
     width: 60rem;
