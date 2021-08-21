@@ -63,6 +63,11 @@ a:hover {
     font-size: 1rem;
 }
 
+#bloc-7 {
+   display: flex;
+   justify-content: center;
+}
+
 .team-text-banniere {
     color: white;
 }
@@ -72,6 +77,13 @@ a:hover {
     justify-content: center;
     text-align: center;
 }
+
+.nav-content {
+    display: flex;
+    flex-direction: row;
+}
+
+
 
 
 .testymony {
@@ -901,7 +913,7 @@ h4 {
 }
 
 .bg-presentation {
-    background-image: url("img/image-de-presentation.bmp");
+    background-image: url("img/image-de-presentation.jpg");
 }
 
 @media (max-width: 1024px) {
