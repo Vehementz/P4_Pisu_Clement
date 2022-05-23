@@ -7,6 +7,16 @@ body {
     -moz-osx-font-smoothing: grayscale;
 }
 
+.home_page_nav_link {
+    position: relative;
+    bottom: 1.5rem;
+}
+
+
+.link_page {
+    color: #000000!important;
+}
+
 a,
 button {
     transition: all .3s ease-in-out;
@@ -35,6 +45,14 @@ a:hover {
     font-size: 2rem;
 }
 
+.footer_text {
+    color: black!important;
+}
+
+footer p {
+    color: black;
+}
+
 .partenaire-title {
     font-size: 1.8rem;
 }
@@ -50,21 +68,27 @@ a:hover {
 
 .text-skills {
     font-size: 1.4rem;
+    color: black!important;
 }
 
 .text-motivation {
-    font-size: 1.4rem;
+    font-size: 1.6rem;
 }
 .text-experience {
     font-size: 1.4rem;
 }
 
 .contact-infos p{
+    position: relative;
+    top: 1.5rem;
+    left: 4rem;
     font-size: 1rem;
+    color: black!important;
 }
 
 #bloc-7 {
    display: flex;
+   margin: auto;
    justify-content: center;
 }
 
@@ -88,6 +112,7 @@ a:hover {
 
 .testymony {
     font-size: 2rem;
+    color: black!important;
 }
 .sub-testymony {
     font-size: 1.5rem;
@@ -96,6 +121,7 @@ a:hover {
 .quote-container {
     width: 60rem;
     margin: 0 auto;
+    color: black;
 }
 
 #bloc-8 {
@@ -123,6 +149,12 @@ a:hover {
 .bloc .container {
     padding-left: 0;
     padding-right: 0;
+}
+
+.contact_form {
+    margin: auto;
+    text-align: center;
+    position: relative;
 }
 
 .navbar a {
@@ -730,8 +762,12 @@ a[data-lightbox]:hover img {
     background: none;
 }
 
+h2 {
+    color: black;
+}
+
 h1,
-h2,
+
 h3,
 h4,
 h5,
@@ -742,7 +778,7 @@ label,
 a {
     font-family: "helvetica";
     font-weight: 400;
-    color: black!important;
+    color: rgb(255, 255, 255)!important;
 }
 
 .container {
@@ -855,6 +891,7 @@ h4 {
 
 .bgc-white {
     background-color: #FFFFFF;
+    ;
 }
 
 .bgc-dark-slate-blue {
@@ -862,7 +899,7 @@ h4 {
 }
 
 .bgc-atomic-tangerine {
-    background-color: #f3e1d9;
+    background-color: #ffd586;
 }
 
 .tc-tangerine {
