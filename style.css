@@ -7,6 +7,7 @@ body {
     -moz-osx-font-smoothing: grayscale;
 }
 
+
 .home_page_nav_link {
     position: relative;
     bottom: 1.5rem;
@@ -35,6 +36,11 @@ a:hover {
     width: 100%;
     z-index: 100000;
     background: #FFFFFF url("img/pageload-spinner.gif") no-repeat center center;
+}
+
+footer {
+    padding-top: 4rem;
+    border-top: 1px solid #000;
 }
 
 .footer-list {
@@ -559,6 +565,7 @@ nav .caret {
 .mg-md {
     margin-top: 10px;
     margin-bottom: 20px;
+    color: white;
 }
 
 .mg-lg {
