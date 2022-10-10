@@ -1782,18 +1782,7 @@ a.bg-danger:hover {
     border-bottom: 1px solid #eee
 }
 
-ol,
-ul {
-    margin-top: 0;
-    margin-bottom: 10px
-}
 
-ol ol,
-ol ul,
-ul ol,
-ul ul {
-    margin-bottom: 0
-}
 
 .list-unstyled {
     padding-left: 0;
@@ -5259,7 +5248,6 @@ textarea.input-group-sm>.input-group-btn>.btn {
         position: static;
         float: none;
         width: auto;
-        margin-top: 0;
         background-color: transparent;
         border: 0;
         -webkit-box-shadow: none;
@@ -8075,3 +8063,5 @@ button.close {
         display: none !important
     }
 }
+
+

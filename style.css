@@ -7,6 +7,9 @@ body {
     -moz-osx-font-smoothing: grayscale;
 }
 
+#bloc-0 {
+    border-bottom: 1px solid black;
+}
 
 .home_page_nav_link {
     position: relative;
@@ -82,6 +85,12 @@ footer p {
 }
 .text-experience {
     font-size: 1.4rem;
+    color: black;
+}
+
+.portfolio-introduce {
+    color: #000;
+    font-weight: 700;
 }
 
 .contact-infos p{
@@ -94,7 +103,6 @@ footer p {
 
 #bloc-7 {
    display: flex;
-   margin: auto;
    justify-content: center;
 }
 
@@ -164,7 +172,7 @@ footer p {
 }
 
 .navbar a {
-    margin: 0 1rem;   
+    margin: auto 1rem;   
 }
 
 .navbar ul {
@@ -785,7 +793,6 @@ label,
 a {
     font-family: "helvetica";
     font-weight: 400;
-    color: rgb(255, 255, 255)!important;
 }
 
 .container {
@@ -794,6 +801,10 @@ a {
 
 .hero-bloc-text {
     font-size: 38px;
+}
+
+.contact-introduce-text {
+    color: black!important;
 }
 
 .hero-bloc-text-sub {
@@ -1173,3 +1184,51 @@ h4 {
         text-align: center;
     }
 }
+
+.bold-link {
+    position: relative;
+    top: 2rem;
+    border: 1px solid white;
+    padding: 1rem 1rem;
+    border-radius: 4px;
+    background-color: white;
+    color: black;
+    transition: all 0.3s ease-in-out;
+}
+
+.bold-link:hover {
+    background-color: rgb(253, 179, 99);
+}
+
+
+.nav-content {
+    margin-top: 1rem!important;
+}
+
+.contact_page_main_container {
+    background-image: url("./img/contact-img.jpg");
+    object-fit: cover;
+    background-position: left;
+}
+
+.contact-form-section {
+    height: 65vh;
+}
+
+.contact-form-container {
+    border-right: 1px solid black;
+    border-left: 1px solid black;
+    margin: 0 auto 0 auto;
+    padding: 2rem 0 8rem 0;
+    width: 80%;
+    
+}
+
+#form_1 h2 {
+    text-align: center;
+}
+
+.form-group label, .bloc-button {
+    color: black!important;
+}
+
