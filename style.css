@@ -16,9 +16,14 @@ body {
     bottom: 1.5rem;
 }
 
+@media (max-width: 768px) {
 
 .link_page {
     color: #000000!important;
+    position: relative;
+    top: 0.5rem;
+}
+
 }
 
 a,
@@ -52,6 +57,7 @@ footer {
 
 .title-footer {
     font-size: 2rem;
+    margin-top: 2rem;
 }
 
 .footer_text {
@@ -82,6 +88,7 @@ footer p {
 
 .text-motivation {
     font-size: 1.6rem;
+    color: white!important;
 }
 .text-experience {
     font-size: 1.4rem;
@@ -544,6 +551,8 @@ footer p {
     padding: 14px 15px;
 }
 
+
+
 nav .caret {
     margin: 0 5px;
 }
@@ -672,6 +681,7 @@ a[data-lightbox] {
     position: relative;
     display: block;
     text-align: center;
+    width: 100%;
 }
 
 a[data-lightbox]:hover::before {
@@ -844,10 +854,20 @@ p {
     font-weight: 700;
 }
 
+figure {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin: auto;
+}
+
 .social {
     max-width: 400px;
     margin: 3rem auto 3rem auto;
-}
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
 
 h2 {
     font-size: 22px;
@@ -885,12 +905,17 @@ h4 {
 }
 
 .portfolio-thumb {
+    width: 100%;
     margin-bottom: 24px;
 }
 
 .portfolio-row {
     margin-bottom: 44px;
-    margin-top: 50px;
+    margin-top: 60px;
+}
+
+.portfolio-row .col-sm-6 {
+    margin-top: 3rem;
 }
 
 .avatar {
